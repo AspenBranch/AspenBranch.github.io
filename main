@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Quicksand|Poiret+One|Raleway|Satisfy">
   
-  <title>Aspen Branch</title>
-
+  <title>Aspen</title>
   <style>
     :root {
       --heading-font: 'Raleway';
@@ -23,7 +22,7 @@
     html {
       height: 100%;
       margin: 0;
-      background: var(--background-color);
+      background: rgb(90,90,90);
       color: var(--text-color);
       font-family: var(--text-font);
       font-size: 1em;
@@ -347,17 +346,12 @@
   </style> <!-- Navigation screen -->
   <style>
     #intro-item {
-      background-color: #2E7BD111;
-      border-radius: 10px;
+      background-color: rgb(22,2,63,);
+      border-radius: 20px;
       width: 50%;
       font-weight: 400;
     }
 
-    #facts-item {
-      width: 34%;
-      border-radius: 10px;
-      font-weight: 400;
-    }
 
     #about-item {
       width: 42%;
@@ -370,21 +364,18 @@
       border-radius: 10px;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 10000px) {
       #intro-item {
         width: 100%;
       }
 
-      #facts-item {
-        width: 100%;
-      }
 
       #about-item {
-        width: 100%;
+        width: 40%;
       }
 
       #credits-item {
-        width: 100%;
+        width: 40%;
       }
     }
 
@@ -416,155 +407,6 @@
       color: rgba(200, 200, 200, 0.7);
     }
   </style> <!-- Black holes (1)-->
-  <style>
-    .facts-item {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .facts-text {
-      width: calc(95% - 30vh);
-      height: 100%;
-      font-family: var(--heading-font);
-      font-size: 1.5em;
-    }
-
-    .facts-image {
-      width: 30vh;
-      height: 30vh;
-      clip-path: circle(45% at 50% 50%);
-      transition: 0.5s;
-      border-radius: 5px;
-    }
-
-    .facts-item:hover .facts-image {
-      clip-path: circle(100% at 50% 50%);
-    }
-
-    #fact-1-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_stellar_black_hole.jpg/320px-A_stellar_black_hole.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-2-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Artist_impression_of_a_supermassive_black_hole_at_the_centre_of_a_galaxy.jpg/220px-Artist_impression_of_a_supermassive_black_hole_at_the_centre_of_a_galaxy.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-3-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Black_hole_consuming_star.jpg/320px-Black_hole_consuming_star.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-4-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Active_Black_Hole_Squashes_Star_Formation.jpg/300px-Active_Black_Hole_Squashes_Star_Formation.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-5-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9f/Sagittarius_A%2A_black_hole_simulation.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-6-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Reese_in_Black_Hole.png/320px-Reese_in_Black_Hole.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-7-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Close-up_of_star_near_a_supermassive_black_hole_%28artist%E2%80%99s_impression%29.jpg/320px-Close-up_of_star_near_a_supermassive_black_hole_%28artist%E2%80%99s_impression%29.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-8-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Artist%E2%80%99s_impression_of_the_black_hole_binary_system_in_NGC_3201.jpg/320px-Artist%E2%80%99s_impression_of_the_black_hole_binary_system_in_NGC_3201.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-9-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Artist%E2%80%99s_illustration_of_galaxy_with_jets_from_a_supermassive_black_hole.jpg/320px-Artist%E2%80%99s_illustration_of_galaxy_with_jets_from_a_supermassive_black_hole.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-10-img {
-      background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    #fact-1-img,
-    #fact-3-img,
-    #fact-5-img,
-    #fact-7-img,
-    #fact-9-img {
-      margin-right: 5%;
-    }
-
-    #fact-2-img,
-    #fact-4-img,
-    #fact-6-img,
-    #fact-8-img,
-    #fact-10-img {
-      margin-left: 5%;
-    }
-
-    #fact-1-text,
-    #fact-3-text,
-    #fact-5-text,
-    #fact-7-text,
-    #fact-9-text {
-      color: var(--primaryaccent-color);
-      text-align: left;
-    }
-
-    #fact-2-text,
-    #fact-4-text,
-    #fact-6-text,
-    #fact-8-text,
-    #fact-10-text {
-      color: var(--highlight-color);
-      text-align: right;
-    }
-
-    @media (max-width: 600px) {
-      .facts-text {
-        width: 100%;
-        height: auto;
-      }
-
-      #fact-1-img,
-      #fact-3-img,
-      #fact-5-img,
-      #fact-7-img,
-      #fact-9-img,
-      #fact-2-img,
-      #fact-4-img,
-      #fact-6-img,
-      #fact-8-img,
-      #fact-10-img {
-        margin: 5%;
-      }
-    }
-  </style> <!-- Facts (2)-->
   <style>
     #about-paper-design {
       width: 100%;
@@ -683,7 +525,7 @@
     }
 
     #credits-1-image {
-      background-image: url("https://cdn.kastatic.org/images/avatars/svg/leaf-red.svg");
+      background-image: url("");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -691,7 +533,7 @@
     }
 
     #credits-2-image {
-      background-image: url("https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104/6192744488714240.png");
+      background-image: url("");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -724,7 +566,7 @@
         margin: 5%;
       }
     }
-  </style> <!-- Credits (4) -->
+  </style> <!-- Thoughts (4) -->
   <style>
     .footer {
       background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(https://upload.wikimedia.org/wikipedia/commons/4/46/Black_hole_consuming_star.jpg);
@@ -826,23 +668,24 @@
       }
     }
   </style> <!-- Footer -->
+  
+  <!--I have style ^ -->
 </head>
 
 <body>
-
   <div id="fullscreen-nav" class="overlay">
     <a href="javascript:void(0)" class="close-nav" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
       <a href="javascript:showPage(0); closeNav()">Home</a><br>
-      <a href="javascript:showPage(1); closeNav()">Black holes</a><br>
+      <a href="javascript:showPage(1); closeNav()">News</a><br>
+      <a href="javascript:showPage(2); closeNav()">Thoughts</a><br>
       <a href="javascript:showPage(3); closeNav()">About</a><br>
-      <a href="javascript:showPage(4); closeNav()">Credits</a><br>
     </div>
   </div> <!-- Navigation -->
   <div id="fullscreen-header">
     <div class="header-text">
-      <h1 class='header-heading scrolled fade-in'>Black<span class='header-highlight'>holes</span></h1>
-      <button class="scrolled fade-in-bottom" onclick='slightScroll()'>Cross the event horizon</button>
+      <h1 class='header-heading scrolled fade-in'>Aspen<span class='header-highlight'>Branch</span></h1>
+      <button class="scrolled fade-in-bottom" onclick='slightScroll()'>Learn,        Read,        Code,        Think</button>
     </div>
   </div> <!-- Header -->
   <div class="scrolled fade-in" id='nav-button' onclick='openNav()'>
@@ -850,294 +693,144 @@
       <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
     </svg>
   </div> <!-- Nav button -->
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
   <div class="page" id="home">
     <div class="flex-container">
       <div class="flex-item js-scroll fade-in-bottom" id="intro-item">
-        <h1>Black holes</h1>
-        Don't let the name fool you: a black hole is anything but empty space. Rather, it is a great amount of matter packed into a very small area - think of a star ten times more massive than the Sun squeezed into a sphere approximately the diameter of NYC, or the Earth squeezed to the size of a marble. The result is a gravitational field so strong that nothing, not even light, can escape. <br><br> These infinitely dense points in space will <em>spaghetti-fy</em> anything that ventures too close.
-        <span class="highlight">Read this webpage</span> to learn more about these strange objects that are, to many, the most fascinating objects in space.
-        <br><br><br>
+        <h1>Living in spain for a year</h1>
+        <span class="highlight">Don't speak spanish.... no hablo español.</span> 
+        <br><br><br><br>
         <button class="ad-button" onclick="showPage(1)">Read more</button>
-      </div>
-      <div class="flex-item" id="facts-item">
-        <h1>Fascinating Facts</h1>
-        The Milky Way houses up to 100 million black holes. Gravity is strong enough in these big mouths to bend light, warp space and distort time. <br><br> Black holes don't suck.<br>Suction is caused by pulling something into a vacuum, which the massive black hole definitely is not. <br><br> Want to read about more of these? Head out into the Facts page.
-        <br><br><br>
-        <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(2)">Warp into there</button>
       </div>
       <div class="flex-item" id="about-item">
         <h1>About the Author</h1>
-        Well the webpage is about black holes. They obviously suck things (i'm assuming you've not read the facts part), but more importantly, for context purposes, they suck. So, for someone to come along and make a webpage about these thinks that, well, suck, that girl must suck too... <br><br> To find out, to the About page.
+        So you want to know more about the maker of webpage that <em>you</em> are on?????? Not that I think about it that makes a lot more sense. Why else are you here?
         <br><br><br>
-        <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(3)">Get there</button>
+        <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(3)">Press here :)</button>
       </div>
       <div class="flex-item" id="credits-item">
-        <h1>Credits and Thanks</h1>
-        That web dev was running short of time, so she decided to steal a whole lot of code and hack into a whole lot of data from other sources. She then felt bad, and decided to give a quick shout-out to them all. Check out on all of them here.
+        <h1>Thoughts</h1>
+        Quick ideas on some random things!
         <br><br><br>
-        <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(4)">Admire them (and me)</button>
+        <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(2)">Go here for <em>instant</em> knowledge!</button>
       </div>
     </div>
     <br><br><br>
-    If you were looking for this post, nah, don't worry, this webpage won't suck you in.
   </div> <!-- Home (0)-->
-
   <div class="page" id="black-holes">
-    <h1 class="page-heading js-scroll slide-left">Black Holes</h1>
-    <h3 class="page-punch">"Black holes are where God divided by zero." — Albert Einstein</h3>
-    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Black_hole_consuming_star.jpg/640px-Black_hole_consuming_star.jpg' class='mid-page-image js-scroll fade-in'>
-    A black hole is a region of spacetime where gravity is so strong that nothing — no particles or even electromagnetic radiation such as light — can escape from it. The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole.
-    <br><br>
-    <em class="comments">Confused? Well, that's how Wikipedia put the definition. Wait a sec, let me get a Layman one for ya...</em>
-    <br><br>
-    <em class="comments">...gotcha. Ironically, this is from NASA.</em>
-    <br><br>
-    A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space.
-    <br><br>
-    Because no light can get out, people can't see black holes. They are invisible. Space telescopes with special tools can help find black holes. The special tools can see how stars that are very close to black holes act differently than other stars.
-    <br><br>
-    Scientists can't directly observe black holes with telescopes that detect x-rays, light, or other forms of electromagnetic radiation. We can, however, infer the presence of black holes and study them by detecting their effect on other matter nearby. If a black hole passes through a cloud of interstellar matter, for example, it will draw matter inward in a process known as accretion. <br> A similar process can occur if a normal star passes close to a black hole. In this case, the black hole can tear the star apart as it pulls it toward itself. As the attracted matter accelerates and heats up, it emits x-rays that radiate into space.
-    <br><br>
-    Recent discoveries offer some tantalizing evidence that black holes have a dramatic influence on the neighborhoods around them - emitting powerful gamma ray bursts, devouring nearby stars, and spurring the growth of new stars in some areas while stalling it in others.
-    <br><br>
-    <em class="comments">"One star's end is a black hole's beginning."</em>
-    <br><br>
-   
-    <em class="weird-thoughts"><strong>Time travel?</strong></em>
-    <br><br>
-
-    <h1 class="page-heading js-scroll slide-left">How big are they?</h1>
-    <img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Behemoth_Black_Hole_Found_in_an_Unlikely_Place_%2826209716511%29.jpg' class='mid-page-image js-scroll fade-in'>
-    Black holes can be big or small. Scientists think the smallest black holes are as small as just one atom. These black holes are very tiny but have the mass of a large mountain. (Mass is the amount of matter, or "stuff," in an object.)
-    <br><br>
-    Another kind of black hole is called "stellar." Its mass can be up to 20 times more than the mass of the sun. There may be many, many stellar mass black holes in Earth's galaxy. Earth's galaxy is called the Milky Way.
-    <br><br>
-    The largest black holes are called "supermassive." These black holes have masses that are more than 1 million suns together. Scientists have found proof that every large galaxy contains a supermassive black hole at its center. The supermassive black hole at the center of the Milky Way galaxy is called Sagittarius A*. It has a mass equal to about 4 million suns and would fit inside a very large ball that could hold a few million Earths.
-    <br><br>
-    <em class="comments">"Halloween is a time to be haunted by ghosts, goblins and ghouls, but nothing in the universe is scarier than a black hole."</em>
-    <br><br>
-    Black holes are tombs of matter; nothing can escape them, not even light. The fate of anyone falling into a black hole would be a painful “spaghettification,” an idea popularized by Stephen Hawking in his book “A Brief History of Time.” <br> In spaghettification, the intense gravity of the black hole would pull you apart, separating your bones, muscles, sinews and even molecules.
-    <br><br>
-    As the poet Dante described the words over the gates of hell in his poem Divine Comedy: <em class="weird-thoughts"><strong>Abandon hope, all ye who enter here.</strong></em>
-    <br><br>
-
-    <h1 class="page-heading js-scroll slide-left">How do they form?</h1>
-    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Swift_J1644%2B57_black_hole_illustration.jpg/1280px-Swift_J1644%2B57_black_hole_illustration.jpg' class='mid-page-image js-scroll fade-in'>
-    Black holes are expected to form when a massive star dies. After the star’s nuclear fuel is exhausted, its core collapses to the densest state of matter imaginable, a hundred times denser than an atomic nucleus. That’s so dense that protons, neutrons and electrons are no longer discrete particles. Since black holes are dark, they are found when they orbit a normal star. The properties of the normal star allow astronomers to infer the properties of its dark companion, a black hole.
-    <br><br>
-    The most well-understood black holes are created when a massive star reaches the end of its life and implodes, collapsing in on itself.
-    <br><br>
-    A black hole takes up zero space, but does have mass — originally, most of the mass that used to be a star. And black holes get “bigger” (technically, more massive) as they consume matter near them. The bigger they are, the larger a zone of “no return” they have, where anything entering their territory is irrevocably lost to the black hole. This point of no return is called the event horizon. Eventually, by growing and consuming material — planets, stars, errant spaceships, other black holes — astronomers think they evolve into the supermassive black holes that they detect at the centers of most major galaxies.
-    <br><br>
-    <em class="comments">But there's a twist. <br><br> Two twists, actually.</em>
-    <br><br>
-    First, it would take longer than the universe’s current age for black holes that started as dead stars to grow to galaxy-center-sized black holes. So astronomers also think the universe might have jumpstarted the process by creating giant primordial black holes in the moment just after the Big Bang – though this is just as weird and problematic as you might think.
-    <br><br>
-    Second, there’s very little direct evidence of so-called intermediate-mass black holes — the ones in between star-sized and galaxy-sized. Astronomers expect to see some black holes in this middle phase, on their way to becoming supermassive but not quite there yet — and, so far, they mostly don’t.
-    <br><br>
-    Both tiny and enormous black holes do exist. They're just still connecting the dots between them.
-    <br><br>
-
-    <h1 class="page-heading js-scroll slide-left">What if I fell into one?</h1>
-    <em class="comments">AHA! HUM-DIDDLY-DEE! Welcome aboard the Black Hole Express.</em>
-    <br><br>
-    Black holes come in different varieties and can be modeled with different levels of complexity, like whether or not they spin or have an electrical charge. So if you jumped into one, your exact fate might depend on which sort of black hole you choose.
-    <br><br>
-    At the simplest level, there are three kinds of black holes: stellar-mass black holes, supermassive black holes and intermediate-mass black holes.
-    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/768px-Black_hole_-_Messier_87_crop_max_res.jpg' class='mid-page-image js-scroll fade-in'>
-    <br><br>
-    Stellar-mass black holes may be puny in comparison to their bigger cousins, but they actually boast more extreme tidal forces just beyond their event horizons. This difference occurs thanks to a property of black holes that would likely surprise some casual observers. Smaller black holes actually have a more dramatic gravitational gradient than supermassive ones.
-    <br><br>
-    In other words, you only have to fall a very short distance to experience an <em>extremely</em> noticeable difference in gravity. <br> <em class="weird-thoughts"><strong>Black hole spaghetti, 10 bucks apiece.</strong></em>
-    <br><br>
-    So, as you fell into a stellar-mass black hole, you probably wouldn’t worry much about the existential mysteries you might be able to unlock on "the other side". You’d be as dead as spaghetti-shaped basketballs hundreds of miles before you hit the singularity.
-    <br><br>
-    In contrast to falling into a stellar-mass black hole, your experience plunging into a supermassive or intermediate-mass black hole would be <em>sliiiightly</em> less nightmarish. Though the end result, a horrible death, would still be your fate, you <em>miiiight</em> actually make it all the way to the event horizon and manage to start falling inside the singularity while still alive.
-    <br><br>
-    In this case, at least in theory, you could see out into surrounding space. But no one would be able to see you once you passed beyond the event horizon. Even if you were holding a flashlight and tried to shine it out, the light would fall back down into the singularity with you.
-    <br><br>
-    Meanwhile, you'd see that everything within the event horizon was warped by extreme gravitational forces, thanks to an effect astronomers call gravitational lensing.
-    <br><br>
-    <em class="comments">Not to mention the wild time dilation effects.</em>
-    <br><br>
-    Of course, no matter what type of black hole you fall into, you're ultimately going to get torn apart by the extreme gravity. No material, especially fleshy human bodies, could survive intact. So once you pass beyond the edge of the event horizon, you’re done. There’s no getting out. Even if you were still alive, you’d have to travel faster than the speed of light in order to escape. But as we know, nothing in the known universe can do that.
-    <br><br>
-    <em class="comments">Well, first, good luck reaching out to the nearest supermassive black hole 25,640 light years away.</em>
-    <br><br>
-    <em class="comments">Oh, and before that, good luck reaching out to the nearest any black hole 1,500 light years away.</em>
-    <br><br><br><br>
-    <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(0)">Get back home disappointed</button>
-  </div> <!--Black holes (1)-->
-  <div class="page" id="facts">
-    <h1 class="page-heading">Black hole facts</h1>
-    <h3 class="page-punch">"Love is like a black hole — when you get too close, there's no way back."</h3>
-    Presenting all kinds of black hole facts to blow your mind into the accretion disk.
-    <br>
-    <em class="comments">And bring it back, obviously.</em>
-    <br><br>
-    <div class="flex-container">
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-1-img"></div>
-        <div class="facts-text" id="fact-1-text">
-          Black holes do not suck. Black holes look like they're sucking in matter from all around, but that's a common misconception.
-        </div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-text" id="fact-2-text">
-          Miniature black holes may have formed immediately after the Big Bang. Rapidly expanding space may have squeezed some regions into tiny, dense black holes.
-        </div>
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-2-img"></div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-3-img"></div>
-        <div class="facts-text" id="fact-3-text">
-          Astronomers estimate that the Milky Way has anywhere from 10 million to 1 billion stellar black holes, with masses roughly three times that of the sun.
-        </div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-text" id="fact-4-text">
-          It might sound crazy that black holes could spawn new universes, but the theory behind this is an active field of research today.
-        </div>
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-4-img"></div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-5-img"></div>
-        <div class="facts-text" id="fact-5-text">
-          Like creatures behind a cage, it’s okay to observe a black hole if you stay away from its event horizon. This zone is the point of no return, when you’re too close for any hope of rescue.
-        </div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-text" id="fact-6-text">
-          Say someone falls into a black hole. The time on your watch slows down, relative to any person watching. Time is affected by how fast you're going, when you’re at extreme speeds close to light.
-        </div>
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-6-img"></div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-7-img"></div>
-        <div class="facts-text" id="fact-7-text">
-          The first black hole wasn’t discovered until x-ray astronomy was used. Cygnus X-1 was the first black hole discovered in the 1960s, and it’s 10 times more massive than the Sun.
-        </div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-text" id="fact-8-text">
-          Our Milky Way probably has a black hole. But don’t worry, Earth isn’t being spaghetti soon. The major black hole that astronomists believe to be within our Milky Way is light years away from Earth.
-        </div>
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-8-img"></div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-9-img"></div>
-        <div class="facts-text" id="fact-9-text">
-          Hypothetically speaking, the smallest black hole might the size of the Planck length — the smallest anything can be. The LHC at CERN is trying to produce quantum black holes at energies around 13 TeV (approximately 10-20 grams).
-        </div>
-      </div>
-      <div class="flex-container flex-item facts-item">
-        <div class="facts-text" id="fact-10-text">
-          Black holes are used all the time in science fiction. <em>Interstellar</em>'s journeys through the universe includes a close-up look at a black hole.
-        </div>
-        <div class="facts-image js-scroll fade-in-bottom" id="fact-10-img"></div>
-      </div>
-    </div>
-  </div> <!--Facts (2)-->
-  <div class="page" id="about">
-    <h1 class="page-heading">About the Author</h1>
-    <div id="about-paper-design">
-      <div id="about-paper-line-pattern">
-        <div id="about-paper-content">
-          <h1>Hi! I am Voldemort.</h1>
-          <br>
-          I'm Martian, and I hate Earthlings. Okay, that sentence is bound to cause some conflict with you guys. But let me make my point clear: someone who cuts down a tree, makes paper from it, and writes down <strong>"Save Trees"</strong> on that very same paper, in my eyes, is <strong>not</strong> clever.
-          <br>
-          Okay, getting to the point — I'm Martian, and I have a lot of respect for Earthlings, keeping the IQ-factor aside. So, I hope to do well in Earth, and chances are, you might even catch a glimpse or two of me in my 100-month quarantine. I'll need your support guys, and please don't commit any blunder.
-          <br><br>
-          <div id='about-paper-signature'>
-            Yours sincerely, <br> Voldy "Volda" Voldemort<br> Dated 32 Jan 2021
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> <!--About (3)-->
-  <div class="page" id="credits">
-    <h1 class="page-heading">Credits and References</h1>
-    <h3 class="page-punch">"Never stop doing your best just because someone doesn't give you credit."</h3>
+    <h1>Sooo.... I'm living in spain</h1>
+    <button class="ad-button js-scroll fade-in-bottom" onclick="showPage(0)">Get back home <em>now</em></button>
+  </div> <!--News (1)-->
+  <!-- Page 2 was deleated :(     than made thoughts! --> 
+    <div class="page" id="Thoughts">
+    <h1 class="page-heading">Thoughts</h1>
+    <h3 class="page-punch">"Never use the favorite button at the bottom to get here. <br> Do not tell me you did."</h3>
     <div class="flex-container">
       <div class="flex-container flex-item credits-item">
         <div class="credits-image js-scroll fade-in-bottom" id="credits-1-image"></div>
         <div class="credits-text" id="credits-1-text">
-          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">Voldy ofc</a></div>
-          <br>
-          I mean, I'm the one making this stuff, how in the world do I not get my respect?
-          <br><br>
-          Jokes aside, I was grounded for quite a few days as of late — storm's a-brewin' out here — so I just figured out to come out here and do some stuff.
-          <br><br>
-          People used to think black holes are absolute vacuum cleaners, big tummies, whatnot. Y'all should be thanking me lol.
+          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">IDK 1</a></div>
+          
         </div>
-      </div>
+      </div><!--IDK 1-->
       <div class="flex-container flex-item credits-item">
         <div class="credits-text" id="credits-2-text">
-          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">Oceanopedia</a></div>
-          <br>
-          I ran short of time for making this webpage, so I decided to just borrow chunks of code from this webpage for doing it.
-          <br><br>
-          Shoutout to who created this one too, though, it is an incredible webpage full of information!
-          <br><br>
-          <em>Legend has it that the one who created this webpage is a spin-off guy of the person who created that webpage...</em>
+          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">IDK</a></div>
+          <!-- Put something here--->
         </div>
         <div class="credits-image js-scroll fade-in-bottom" id="credits-2-image"></div>
-      </div>
+      </div><!--IDK 2 -->
       <div class="flex-container flex-item credits-item">
         <div class="credits-image js-scroll fade-in-bottom" id="credits-3-image"></div>
         <div class="credits-text" id="credits-3-text">
           <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">NASA</a></div>
           <br>
-          Well, for once, Wikipedia info was unreliable. Don't get me wrong, but you probably wouldn't have understood the Reissner–Nordström metric. So I thought, NASA was a far better site this time to get information from.
+          Think you're paying a lot of taxes to NASA? They only take 0.02%! And still put people on the moon 0.o
           <br><br>
-          You're welcome.
+          
         </div>
-      </div>
+      </div><!--NASA -->
       <div class="flex-container flex-item credits-item">
         <div class="credits-text" id="credits-4-text">
-          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">'em black holes</a></div>
-          <br>
-          Yeah, thanks to them for, well, <em>existing</em>, so that I could make a webpage about them.
-          <br><br>
-          Make no mistake, y'all, they're really cool, you wouldn't know how cool they are until you visit them! The door's at the event horizon, though...
+          <div class="credits-title"><a >Crypto</a></div>
+          <br>Only worth something if everyone thinks so.
         </div>
         <div class="credits-image js-scroll fade-in-bottom" id="credits-4-image"></div>
+      </div><!-- crypto -->
+    </div>
+  </div> <!--Thoughts (2) <  REMEMBER-->
+  <div class="page" id="about">
+    <h1 class="page-heading">About the Author</h1>
+    <div id="about-paper-design">
+      <div id="about-paper-line-pattern">
+        <div id="about-paper-content">
+          <h1>Hi! I am Aspen.</h1>
+          <br>
+          A random coder that like pineapples.
+          <br> 
+          <br>
+          And warrior cats. And WOF. And coding.
+          <br><br>
+          <div id='about-paper-signature'>
+            Yours sincerely, <br> Aspen<br> 
+          </div>
+        </div>
       </div>
     </div>
-  </div> <!--Credits (4)-->
-
+  </div> <!--About (3) WOOOOOORRRRRKKKKK-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <footer class="footer">
     <div class="footer-right">
-      Just another webpage <br> Made out of: Pure boredom
     </div>
     <div class="footer-left">
       <p class="footer-links">
         <a href="javascript:showPage('0')" title='Home'>
           <span class="material-icons">home</span>
         </a>
-        <a href="javascript:showPage('1')" title='Black Holes'>
+        <a href="javascript:showPage('1')" title='News'>
           <span class="material-icons">offline_bolt</span>
         </a>
-        <a href="javascript:showPage('2')" title='Facts'>
-          <span class="material-icons">info</span>
-        </a>
-        <a href="javascript:showPage('3')" title='About'>
+        <a href="javascript:showPage('2')" title='Thoughts'>
           <span class="material-icons">account_circle</span>
         </a>
-        <a href="javascript:showPage('4')" title='Credits'>
-          <span class="material-icons">favorite</span>
+        <a href="javascript:showPage('3')" title='About'>
+          <span class="material-icons">person</span>
         </a>
         <a href="javascript:backToTop()" title='Back to top'>
           <span class="material-icons">expand_less</span>
         </a>
       </p>
-      <p>Voldemort &copy; 2021, all rights reserved. <br> Take permission prior to stealing code.</p>
+      <p>Aspen Branch &copy; 2023, no rights reserved. <br> Credit to wikipedia for images :)</p>
     </div>
     <br>
   </footer> <!-- Footer -->
-
   <script type>
     var scenes = document.getElementsByClassName('page');
 
@@ -1179,14 +872,13 @@
     function closeNav() {
       document.getElementById("fullscreen-nav").style.height = "0%";
     }
-  </script> <!-- Navigation script -->
+  </script> <!-- Navigation script --> 
   <script type>
     var headerImages = [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Black_hole_Cygnus_X-1.jpg/1024px-Black_hole_Cygnus_X-1.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Black_Holes_-_Monsters_in_Space.jpg/1024px-Black_Holes_-_Monsters_in_Space.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Black_Hole_With_Jets.jpg/1280px-Black_Hole_With_Jets.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Artist%27s_concept_of_double_black_hole.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Artist%E2%80%99s_impression_of_quasar_J0313-1806.jpg/1280px-Artist%E2%80%99s_impression_of_quasar_J0313-1806.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Aspen_trees_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fall_aspen_trees_in_Ashley_National_Forest.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a4/Aspen_Mountain_ski_area_aspen_trees_FIS_chair.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aspen_tree_in_sunlight.jpg"
     ]
 
     document.getElementById('fullscreen-header').style.backgroundImage = "linear-gradient(316deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('" + headerImages[imageIndex = Math.floor(Math.random() * 5)] + "')";
