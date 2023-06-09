@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
+<!--
+To-do:
+  Figue out why images in thoughts are not working(538)   20%
+  Finish writing thoughts                                 10%
+  Finish writing about me                                 0%
+  Switch photos quicker                                   30%
+  Reload to github after all of ^ those are fixed         0%
+  Buy domain                                              0%
+  Release!                                                0%
 
+
+
+-->
 <head>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -525,7 +537,7 @@
     }
 
     #credits-1-image {
-      background-image: url("");
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -533,7 +545,7 @@
     }
 
     #credits-2-image {
-      background-image: url("");
+      background-image: url("https://static.wikia.nocookie.net/wingsoffire/images/6/6b/WinterTopShot.png/revision/latest?cb=20210518165821");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -669,7 +681,7 @@
     }
   </style> <!-- Footer -->
   
-  <!--I have style ^ -->
+  <!--I have style ^ :) -->
 </head>
 
 <body>
@@ -733,19 +745,19 @@
   <!-- Page 2 was deleated :(     than made thoughts! --> 
     <div class="page" id="Thoughts">
     <h1 class="page-heading">Thoughts</h1>
-    <h3 class="page-punch">"Never use the favorite button at the bottom to get here. <br> Do not tell me you did."</h3>
+    <h3 class="page-punch">"Make'n a bunch of ways to get around a website is the best!"</h3>
     <div class="flex-container">
       <div class="flex-container flex-item credits-item">
-        <div class="credits-image js-scroll fade-in-bottom" id="credits-1-image"></div>
         <div class="credits-text" id="credits-1-text">
-          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">IDK 1</a></div>
-          
+          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">Python</a></div>
+          <div class="credits-image js-scroll fade-in-bottom" id="credits-1-image"></div>
         </div>
       </div><!--IDK 1-->
       <div class="flex-container flex-item credits-item">
         <div class="credits-text" id="credits-2-text">
-          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">IDK</a></div>
-          <!-- Put something here--->
+          <div class="credits-image js-scroll fade-in-bottom" id="credits-2-image"></div>
+          <div class="credits-title"><a href="https://www.khanacademy.org/computer-programming/oceanopedia-winning-entry-oceans/6249571869999104">Wings of fire</a></div>
+          One of the best books of all time.<br> The only good tribe is the rainwings
         </div>
         <div class="credits-image js-scroll fade-in-bottom" id="credits-2-image"></div>
       </div><!--IDK 2 -->
@@ -762,7 +774,7 @@
       <div class="flex-container flex-item credits-item">
         <div class="credits-text" id="credits-4-text">
           <div class="credits-title"><a >Crypto</a></div>
-          <br>Only worth something if everyone thinks so.
+          <br>Only worth something if everyone thinks so. Only invest in dogecoin.
         </div>
         <div class="credits-image js-scroll fade-in-bottom" id="credits-4-image"></div>
       </div><!-- crypto -->
